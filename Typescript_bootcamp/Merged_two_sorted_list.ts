@@ -9,7 +9,7 @@
 //     }
 // }
 
-function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null
+export function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null
 {
     const dummy = new ListNode();
     let curr = dummy;
