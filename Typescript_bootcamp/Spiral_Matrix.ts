@@ -22,7 +22,6 @@ function spiralOrder(matrix: number[][]): number[]
         for (let i = top; i <= bottom; i++)
             res.push(matrix[i][right]);
         right--;
-
         // Traverse bottom now
         if (top <= bottom)
         {
