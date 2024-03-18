@@ -16,7 +16,7 @@ function letterCombinations(digits: string): string[]
         '9': 'wxyz'
     };
 
-    // I think using the algo of backtracking is so useful, and having this DFS approach for traversing
+    // I think using the algo of Graph  is so useful, and having this DFS approach for traversing
     // Time complexity of O(n)
     function DFS(combination: string, nextDigits: string)
     {
